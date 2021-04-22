@@ -1,0 +1,166 @@
+
+// Pattern box result config
+.results-conf {
+  height: $resultsHeight;
+
+  .row {
+    justify-content: center;
+  }
+
+  .box-result {
+    width: 360px;
+    height: 341px;
+    border: 1px solid $t-color;
+    margin-right:30px;
+    .row {
+      padding-left: 24px;
+      padding-right: 11px;
+      margin:0;
+    }
+  }
+  .box-result:last-of-type {
+    margin-right:0;
+  }
+
+  .box-title {
+    padding-top:9px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .title {
+    font-size: 23px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .plus {
+    width:36px;
+    height: 36px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 23px;
+    letter-spacing: 0.73913px;
+    border: 1px solid $color;
+    box-sizing: border-box;
+    a {
+      color: $s-color;
+    }
+    a:hover {
+      text-decoration: none;
+      color: $color;
+    }
+  }
+
+}
+
+
+// first box config
+.results-conf {
+
+  .box-result {
+    .box-result-infos {
+      display:flex;
+      margin-top:30px;
+      padding:0;
+    }
+  }
+  
+  .box-result .carousel-info {
+    width: 183px;
+    .info-list {
+      font-size: 17px;
+      line-height: 20px;
+      height: 220px;
+      letter-spacing: 0.73913px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+
+  .box-result .pst-carousel {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .middle-info {
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 40px;
+      /* identical to box height */
+      letter-spacing: 1px;
+    }
+  }
+
+  .box-result .news-info  {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    article {
+      width: 320px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+      .pst-title {
+        width: 233px;
+        font-size: 17px;
+        font-weight: normal;
+        line-height: 20px;
+        letter-spacing: 0.45946px;
+        align-self: center;
+      }
+      .pst-date {
+        text-align: center;
+
+        .pst-day {
+          font-size: 37px;
+          letter-spacing: 1px;
+          line-height: 17px;
+        }
+  
+        .pst-month {
+          font-size: 17px;
+        }
+      }
+  }
+
+  .box-result .events-info  {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    article {
+      width: 320px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 16px 10px 10px 5px;
+      border: 1px solid #979797;
+      box-sizing: border-box;
+    }
+      .pst-title {
+        width: 233px;
+        font-size: 17px;
+        font-weight: normal;
+        line-height: 20px;
+        letter-spacing: 0.45946px;
+        align-self: center;
+      }
+      .pst-date {
+        text-align: center;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 20px;
+        align-self: center;
+      }
+  }
+
+}

@@ -1,0 +1,50 @@
+.footer-conf {
+  height: $footerHeight;
+  background: #242424;
+  #menu-footer-menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    align-content: center;
+    a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 1px;
+      color: $color;
+    }
+    a:hover {
+      text-decoration: none;
+      color: $s-color;
+    }
+  } 
+
+  .menu-footer-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  #social-media-container {
+    display: flex;
+    justify-content: flex-end;
+    img {
+      width: 32px;
+      margin-left: 10px;
+    }
+  }
+
+  .footer-copy {
+    display: flex;
+    justify-content: center;
+    p {
+      margin-bottom: 0;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 1px;
+    }
+  }
+
+}

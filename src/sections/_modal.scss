@@ -1,0 +1,228 @@
+
+#search-fixed-bg {
+  width:40vw;
+  height: 100vh;
+  position:fixed;
+  display: none;
+  right: 0;
+  top:0;
+  background: #00A4FF;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  z-index:98;
+}
+
+#search-fixed {
+  display: none;
+  width:40vw;
+  height: 100vh;
+  position:fixed;
+  right: 0;
+  top:0;
+  z-index:99;
+  .search-container {
+    width: 80%;
+    margin-left: 35px;
+  }
+  .search-close {
+    margin-top:50px;
+    display: flex;
+    justify-content: flex-end;
+    img {
+      width: 39px;
+    }
+    img:hover {
+      cursor: pointer;
+    }
+  }
+  .search-form {
+    input[type="search"] {
+      width: 100%;
+      margin-top: 20px;
+      padding: 5px 10px 5px 10px;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 1px;
+      border: px solid #FFFFFF;
+      :hover {
+        border: none;
+      }
+    }
+    input[type="search"]::placeholder {
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+// sitemap 
+
+
+#sitemap-fixed-bg {
+  width:100vw;
+  height: 50vh;
+  position:fixed;
+  display: none;
+  right: 0;
+  bottom:0;
+  left: 0;
+  background: #00A4FF;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  z-index:98;
+}
+
+#sitemap-fixed {
+  width:100vw;
+  height: 50vh;
+  position:fixed;
+  display: none;
+  right: 0;
+  bottom:0;
+  left: 0;
+  z-index: 99;
+  .sitemap-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 34px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+    flex: 1;
+  }
+  .sitemap-close {
+    cursor: pointer;
+  }
+  .title-row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-sitemap-menu-container {
+    flex:1;
+  }
+  #menu-sitemap-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+   > .menu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      a {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        color: $color;
+        margin-bottom: 17px;
+      }
+    }
+    .sub-menu {
+      list-style-type: none;
+      padding: 0;
+      .menu-item {
+        a {
+          font-weight: normal;
+          font-size: 17px;
+          line-height: 20px;
+          text-align: center;
+          letter-spacing: 1px;
+          margin-bottom: 0;
+        }
+      }
+    } 
+    
+  }
+}
+
+// mobile-menu
+
+#mobile-menu-fixed-bg {
+  width:100vw;
+  height: 100vh;
+  position:fixed;
+  display: none;
+  right: 0;
+  bottom:0;
+  left: 0;
+  top: 0;
+  background: #00A4FF;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  z-index:98;
+}
+
+#mobile-menu-fixed {
+  width:100vw;
+  height: 100vh;
+  position:fixed;
+  display: none;
+  right: 0;
+  bottom:0;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  .mobile-menu-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 34px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+    flex: 1;
+  }
+  .mobile-menu-close {
+    cursor: pointer;
+  }
+  .title-row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-top-menu-container {
+    flex:1;
+  }
+  #menu-top-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+   > .menu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      a {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        color: $color;
+        margin-bottom: 17px;
+      }
+    }
+    .sub-menu {
+      list-style-type: none;
+      padding: 0;
+      .menu-item {
+        a {
+          font-weight: normal;
+          font-size: 17px;
+          line-height: 20px;
+          text-align: center;
+          letter-spacing: 1px;
+          margin-bottom: 0;
+        }
+      }
+    } 
+    
+  }
+}
