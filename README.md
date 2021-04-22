@@ -1,5 +1,5 @@
 # Testing wordpress theme Positron
-This project was a test that I made for a company (12h in call with the evaluator). It still don't have the mobile and tablet version, I'm implementing it in the future. 
+This project was a test that I made for a company (12h in call with the evaluator), such a nice challenge. It still doesn't have the mobile and tablet version, I will implement it in the future.  
 
 ## What do I use
 
